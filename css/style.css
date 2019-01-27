@@ -1,0 +1,365 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+/* img{
+  max-width: 100%;
+} */
+.container{
+   width: 100%;
+  max-width: 1173px;
+    margin-left: auto;
+  margin-right: auto;
+}
+.menu{
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  display: block;
+  font-size:16px;
+  font-weight: 800;
+}
+.description{
+  margin-left: 9px;
+}
+.menu-logo
+{
+  display: flex;
+  align-items: center;
+}
+.avatar{
+  /* Style for "avatar_pho" */
+width: 57px;
+height: 57px;
+background-color: #2b2a2c;
+  background:
+   url('https://pp.userapi.com/FfXd6wYLKATGyIdgh1F5OpNUByGGadEI5ICz6g/mTZkAijXBGM.jpg');
+  background-size: 100%;
+  border-radius:50%;
+  /*background-repeat: 100%;*/
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+}
+
+.menu-list a::before{
+  content:'';
+  bottom:0;
+  left:0;
+  position: absolute;
+  width:100%;
+  height:2px;
+  background-color: #000;
+  transition: 0.2s; 
+  transform:scaleX(0);
+}
+.menu-list a:hover:before{ 
+  transform:scaleX(1);
+}
+.menu-list a {
+   text-decoration: none; 
+  position:relative;
+    color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px; 
+}
+
+.menu-button{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.hero-fon{
+  padding-bottom: 112px;
+  padding-top: 112px;
+  /* background: url('https://wmpics.pics/di-CFIR.png') no-repeat */
+  background: url('https://wmpics.pics/di-FE8N.png') no-repeat
+  right bottom;
+}
+.hero-info{
+  
+}
+.hero-subtitle{
+  font-size: 32px;
+}
+.hero-title{
+  font-size: 45px;
+ font-weight: 800; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description{
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social{
+  margin-top: 30px;
+}
+.social{
+  display:inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg{
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button{
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary{
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o{
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  
+}
+.projects{
+  padding:97px 0;
+}
+.project-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.project-card{
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,25);
+  margin-bottom: 50px;
+  
+}
+.project-card_image{
+  height: 300px;
+  
+}
+.landing-page{
+  background: url('https://www.brightedge.com/sites/default/files/landing%20page%20content%20optimization.jpg') center;
+  background-size: 100%;
+}
+
+.corporate{
+  background: url('http://ryndin.com/wp-content/uploads/2018/02/pravilnyy-korporativnyy-sayt.jpg') center no-repeat;
+  background-size: cover;
+}
+.shop_food{
+  background: url('http://itd3.mycdn.me/image?id=854616898291&t=20&plc=WEB&tkn=*Ji76q-XY6BOhL4_D2QHVFu-FZ28') center no-repeat;
+  background-size: cover;
+}
+
+
+.fitness_club{
+  background: url('https://avatars.mds.yandex.net/get-pdb/245485/11798d12-7460-47ed-a14c-9f5d4a50071c/s1200?webp=false') center no-repeat;
+  background-size: cover;
+}
+
+.developer_help{
+  background: url('https://1.bp.blogspot.com/-3SvFT_HauVA/Vo-vV4CPfsI/AAAAAAAAADY/arUI4B-A93k7tu01OCAvQqH4hwP8lyODgCKgB/s1600/developer.png') center no-repeat;
+  background-size: cover;
+}
+
+.rpi_help{
+  background: url('https://cdn.lifehacker.ru/wp-content/uploads/2016/07/RaspberryPi_1469777744-1024x512.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.university{
+  background: url('https://www.spbstu.ru/upload/medialibrary/735/334.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.map_sait{
+  background: url('http://2.bp.blogspot.com/--v-ELoF5R08/UEioAe1y56I/AAAAAAAACt0/xp7fJG2JA9k/s1600/2gis_01b.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.travels{
+  background: url('http://pixanews.com/wp-content/uploads/2015/01/Tomasz-Furmanek-pixanews-3-990x742.jpg') center no-repeat;
+  background-size: cover;
+}
+
+
+.project-card_info{
+  padding: 19px 13px;
+}
+.project-category{
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+  
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text{
+  display:flex;
+  align-items: center;
+}
+.copyright{
+  margin-right: 16px;
+  padding-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px; 
+}
+.footer-social_link{
+  font-size: 23px;
+  margin-right: 13px;
+  
+}
+.footer-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+.footer-menu a{
+  font-size: 14px;
+  display: inline;
+  margin-right: 30px;
+}
+.footer-button{
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+.aboutme-fon{
+  padding-top: 70px;
+  padding-bottom:147px;
+   background: url('https://wmpics.pics/di-7CDR.jpg') no-repeat left top; 
+}
+
+.aboutme-title{ 
+  color: #2b2a2c;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.aboutme-info{
+  margin-left: 550px;
+  margin-right: 60px;
+}
+.aboutme-buttons{
+  margin-top: 50px;
+  
+}
+@media (max-width: 1200px) {
+  .container{
+  width: 965px;
+  }
+  .project-card{
+    width:48%;
+  }
+}
+@media (max-width: 992px) {
+  .container{
+  width: 760px;
+  }
+    .project-card{
+    width:48%;
+  }
+  .aboutme-info{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 570px;
+}
+}
+
+@media (max-width: 768px) {
+  .description_smal{
+    font-size: 10px;
+  }
+  .menu-list a{
+    display:none;
+  }
+  .hero-fon{
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .aboutme-fon{
+    padding-bottom: 500px;
+  }
+  .container{
+  width: 95%;
+  }
+    .project-card{
+    width:95%;
+  margin 30px: auto;
+  }
+.aboutme-info{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 570px;
+}
+.footer-menu{
+  display: inline-block;
+}
+
+.footer-button{
+  padding: 1px 14px;
+}
+.aboutme-fon{
+  padding-top: 30px;
+  padding-bottom:47px;
+  background: url('https://wmpics.pics/di-7CDR.jpg') no-repeat left top; 
+}
+.projects{
+  padding:20px 0;
+}
+}
